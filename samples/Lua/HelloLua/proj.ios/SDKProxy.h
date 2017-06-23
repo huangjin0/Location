@@ -18,7 +18,6 @@ typedef int (^BlockLocation) (float,float);
     NSString*lati;//精度
     NSString*longit;//维度
 }
-
 /*
  回调是否在100米范围内结果
  */
