@@ -29,6 +29,13 @@
 
 #import "RootViewController.h"
 
+#import <CoreLocation/CoreLocation.h>
+
+@interface AppController()
+
+
+@end
+
 @implementation AppController
 
 #pragma mark -
@@ -73,8 +80,12 @@ static AppDelegate s_sharedApplication;
     [[UIApplication sharedApplication] setStatusBarHidden: YES];
     
     cocos2d::CCApplication::sharedApplication()->run();
+    
+    
+    
     return YES;
 }
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

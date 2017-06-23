@@ -192,6 +192,7 @@
 		46C1006F16BF5A2C00F74D54 /* LuaCocos2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46C1006216BF5A2C00F74D54 /* LuaCocos2d.cpp */; };
 		46C1007116BF5A2C00F74D54 /* tolua_fix.c in Sources */ = {isa = PBXBuildFile; fileRef = 46C1006816BF5A2C00F74D54 /* tolua_fix.c */; };
 		46C1007616BF62DA00F74D54 /* CCLuaObjcBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 46C1007516BF62DA00F74D54 /* CCLuaObjcBridge.mm */; };
+		4BE5678D1EFD0113002E635F /* SDKProxy.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4BE5678C1EFD0113002E635F /* SDKProxy.mm */; };
 		506EDB88102F4C4000A389B3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 506EDB87102F4C4000A389B3 /* libz.dylib */; };
 		506EDBA5102F4C9F00A389B3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506EDBA4102F4C9F00A389B3 /* AVFoundation.framework */; };
 		78947C6D14EBB9B100DBD5A6 /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78947C5E14EBB9B000DBD5A6 /* background.mp3 */; };
@@ -635,6 +636,8 @@
 		46C1006916BF5A2C00F74D54 /* tolua_fix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tolua_fix.h; sourceTree = "<group>"; };
 		46C1007416BF62DA00F74D54 /* CCLuaObjcBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLuaObjcBridge.h; sourceTree = "<group>"; };
 		46C1007516BF62DA00F74D54 /* CCLuaObjcBridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CCLuaObjcBridge.mm; sourceTree = "<group>"; };
+		4BE5678B1EFD0113002E635F /* SDKProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKProxy.h; sourceTree = "<group>"; };
+		4BE5678C1EFD0113002E635F /* SDKProxy.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SDKProxy.mm; sourceTree = "<group>"; };
 		506EDB87102F4C4000A389B3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		506EDBA4102F4C9F00A389B3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		78947C5E14EBB9B000DBD5A6 /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
@@ -1319,6 +1322,8 @@
 				BF82F42313A8654600616D55 /* HelloLua_Prefix.pch */,
 				BF82F41E13A8652A00616D55 /* AppController.h */,
 				BF82F41F13A8652A00616D55 /* AppController.mm */,
+				4BE5678B1EFD0113002E635F /* SDKProxy.h */,
+				4BE5678C1EFD0113002E635F /* SDKProxy.mm */,
 				BF82F42013A8652A00616D55 /* main.m */,
 			);
 			name = "Other Sources";
@@ -1812,6 +1817,7 @@
 				46C1006A16BF5A2C00F74D54 /* CCLuaBridge.cpp in Sources */,
 				15C0B0EE196D3E0C007F909D /* CCUtilMath.cpp in Sources */,
 				46C1006B16BF5A2C00F74D54 /* CCLuaEngine.cpp in Sources */,
+				4BE5678D1EFD0113002E635F /* SDKProxy.mm in Sources */,
 				15C0B11C196D3E0C007F909D /* TriggerMng.cpp in Sources */,
 				46C1006C16BF5A2C00F74D54 /* CCLuaStack.cpp in Sources */,
 				46C1006D16BF5A2C00F74D54 /* CCLuaValue.cpp in Sources */,
